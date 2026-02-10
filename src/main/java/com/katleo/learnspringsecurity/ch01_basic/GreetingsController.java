@@ -1,4 +1,4 @@
-package com.katleo.learnspringsecurity;
+package com.katleo.learnspringsecurity.ch01_basic;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
