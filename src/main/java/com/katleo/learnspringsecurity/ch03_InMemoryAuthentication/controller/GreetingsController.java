@@ -1,4 +1,4 @@
-package com.katleo.learnspringsecurity.ch02_basic_authentication.controller;
+package com.katleo.learnspringsecurity.ch03_InMemoryAuthentication.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetingsController {
     @GetMapping(path = "/hello")
     public String sayHello(){
-        return "hello";
+        return "hello from ch03";
     }
 }
